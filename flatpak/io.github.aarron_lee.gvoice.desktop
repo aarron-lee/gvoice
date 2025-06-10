@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Google Voice (Unofficial)
+Exec=startgvoice %U
+Terminal=false
+Type=Application
+Icon=io.github.aarron_lee.gvoice
+StartupWMClass=gvoice
+GenericName=Google Voice
+Categories=Messaging;
+Keywords=Google Voice;
+Comment=Unofficial Google Voice app

@@ -1,0 +1,39 @@
+{
+  "name": "gvoice",
+  "version": "1.0.0",
+  "description": "Electron wrapper for gvoice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder",
+    "flatpak:build-unpacked": "electron-builder --linux --dir"
+  },
+  "build": {
+    "appId": "com.aarron_lee.gvoice",
+    "productName": "gvoice",
+    "files": [
+      "index.js",
+      "package.json",
+      "src",
+      "img",
+      "LICENSE"
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "img/icon.png",
+      "artifactName": "${productName}_v${version}_linux.${ext}",
+      "category": "Utility"
+    }
+  },
+  "keywords": [],
+  "author": "aarron-lee",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.13.3"
+  },
+  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4"
+}

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+  <!--Created with jdAppStreamEdit 9.2-->
+  <id>io.github.aarron_lee.gvoice</id>
+  <name>Google Voice (Unofficial)</name>
+  <summary>Unofficial Google Voice app</summary>
+  <developer id="io.github.aarron_lee">
+    <name>aarron-lee</name>
+  </developer>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <description>
+    <p>Google Voice Unofficial app</p>
+  </description>
+  <screenshots>
+    <!-- <screenshot>
+      <caption>App</caption>
+      <image type="source">https://raw.githubusercontent.com/aarron-lee/gvoice/refs/heads/main/flatpak/app.png</image>
+    </screenshot> -->
+  </screenshots>
+  <releases>
+    <release version="1.0.6" date="2025-05-30" type="stable">
+    </release>
+  </releases>
+  <url type="homepage">https://github.com/aarron-lee/gvoice</url>
+  <url type="bugtracker">https://github.com/aarron-lee/gvoice/issues</url>
+  <url type="vcs-browser">https://github.com/aarron-lee/gvoice</url>
+  <url type="contribute">https://github.com/aarron-lee/gvoice</url>
+  <requires>
+    <internet>always</internet>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+  </supports>
+  <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.aarron_lee.gvoice.desktop</launchable>
+  <keywords>
+    <keyword>Google Voice</keyword>
+    <keyword>gvoice</keyword>
+  </keywords>
+</component>

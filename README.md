@@ -25,4 +25,3 @@ Manual build, see flatpak manifest here: https://github.com/aarron-lee/flathub/t
 - run `npm install`
 - run `npm run build`
 - Built app can be located at `./dist/`
-# gvoice
